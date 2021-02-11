@@ -5,11 +5,11 @@ public class sum
     {
         Scanner sc=new Scanner(System.in);
         int a,b,s;
-        System.out.print("ENTER TWO NUMBERS: ");
+        System.out.print("ENTER TWO NUMBERS: ");//ACCEPT TWO NUMBERS
         a=sc.nextInt();
         b=sc.nextInt();
         sc.close();
-        s=a+b;
+        s=a+b;//SUM
         System.out.println("SUM OF TWO NUMBERS="+s+"\n\n");
     }
 }
